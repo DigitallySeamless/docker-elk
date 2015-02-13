@@ -48,6 +48,6 @@ VOLUME ["/etc/logstash/conf.d"]
 VOLUME ["/opt/kibana-3.1.1/app/dashboards"]
 VOLUME ["/etc/nginx"]
 
-EXPOSE 80 443
+EXPOSE 80 443 9998 9999
 
 CMD ["/usr/bin/supervisord"]

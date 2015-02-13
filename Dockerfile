@@ -20,6 +20,7 @@ RUN \
   apt-get -qy install  elasticsearch\
                       supervisor \
                       logstash \
+                      logstash-contrib \
                       nginx && \
   apt-get clean && \
   rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
